@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    font-family: "Proxima Nova Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.upperBody{
+    background: url("https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png") no-repeat;
+    background-size: cover;
+    height: 410px;
+}#navbar{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}.photos{
+    height: 100px;
+    width: 100px;
+}#explore{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    text-align: center;
+    margin: 0 10px;
+}.head{
+    margin: 50px 0;
+    font-size: 24px;
+    color: #aed8ea;
+    letter-spacing: 0.6px;
+    text-align: center;
+    font-family: "Proxima Nova ExtraBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}.head2{
+    margin: 7px 0;
+    font-size: 16px;
+    color: #cadee7;
+    letter-spacing: 0.6px;
+    font-family: "Proxima Nova ExtraBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#explore img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}#explore img:hover{
+    transform: scale(1.0);
+    transition: 1.8s;
+}.auth{
+    background-color: #005d85;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-align: center;
+    height: 50px;
+    
+}.auth p{
+    margin-top: 8px;
+}.mainbody{
+    margin: 20px 15px;
+}
+
+@media only screen and (max-width: 320px) {
+  .upperBody{
+      width: 340px;
+  }
+  
+  }
